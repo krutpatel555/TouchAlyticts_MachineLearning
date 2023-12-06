@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 
 # Load the dataset
-ta = pd.read_csv("C:\\Users\\Krut Patel\\Downloads\\\\FeatureExt.csv") 
-touchdata = pd.read_csv("C:\\Users\\Krut Patel\\Downloads\\\\FeatureExt.csv")
+ta = pd.read_csv("C:\Users\Krut Patel\Downloads\FeatureExt.csv") 
+touchdata = pd.read_csv("C:\Users\Krut Patel\Downloads\FeatureExt.csv")
 
 # Assign column names to the dataframe
 touchdata.columns = ["User Id","Doc ID", "Inter-stroke time","Stroke Duration","START X", "Start y","Stop x", "Stop y",
